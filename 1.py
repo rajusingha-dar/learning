@@ -1,4 +1,4 @@
-
+print(" Decorator ")
 
 def div(a,b):
     print(a/b)
@@ -16,3 +16,5 @@ div(2,3)
 div=smart_div(div)
 div(4,8)
 div(4,2)
+
+
